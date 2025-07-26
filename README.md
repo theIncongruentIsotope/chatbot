@@ -20,4 +20,22 @@ A high-performance Streamlit dashboard for screening the top 1000 U.S. stocks by
 ---
 
 ## 📁 Folder Structure
+/
+├── sharpe_screener_app.py # Streamlit UI
+├── full_sharpe_script.py # Backend computation for Sharpe & Beta
+├── requirements.txt # Package list
+├── README.md
+└── sharpe_outputs/
+└── sharpe_filtered.json # Cached results from last full refresh
 
+
+---
+
+## 📦 Install Requirements
+
+```bash
+pip install -r requirements.txt
+
+🚀 Run Locally
+
+streamlit run sharpe_screener_app.py
