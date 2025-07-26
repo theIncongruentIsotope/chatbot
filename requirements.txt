@@ -1,2 +1,7 @@
 streamlit
-openai
+pandas
+numpy
+yfinance
+requests
+beautifulsoup4
+altair
